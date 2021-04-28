@@ -1,0 +1,23 @@
+
+/*ÜLEMINE OSA - HEADER*/
+#name {
+    text-align: center;
+    font-family: 'Megrim', cursive;
+    margin: 0em;
+    font-size: 5.73em;
+}
+
+#header {
+    margin: 0em;
+    padding-bottom: 0.25em;
+}
+
+#header .btn {
+    margin-left: 0.53em;   
+}
+
+#header .btn-outline-light {
+    color: dimgray;
+}
+
+
