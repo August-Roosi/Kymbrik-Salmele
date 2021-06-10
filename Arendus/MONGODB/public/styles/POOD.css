@@ -1,0 +1,104 @@
+body {
+    overflow-x: hidden; /* Hide horizontal scrollbar */
+    margin: 0em;
+    padding: 0em;
+}
+
+/*ÜLEMINE OSA - HEADER*/
+#logo {
+    text-decoration: none;
+    color: black;
+    font-size: 3em;
+    font-family: 'Megrim', cursive;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    margin: 0em;
+    padding: 0 0 0 0;
+    width: 35%;
+}
+
+#header {
+    margin: 0em;
+    padding: 0em;
+}
+
+#navRiba {
+    background-color: white;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+#navRiba div .btn {
+    margin-left: 0.53em;  
+    margin-top: 1%; 
+    margin-bottom: 1%;
+    background-color: white;
+    
+}
+
+#navRiba .btn-outline-light {
+    color: dimgray;
+}
+
+
+.poeMosaiik {
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    grid-template-rows: repeat(16, 5vw);
+    grid-gap: 15px;
+    padding:0.2em 2em;
+}
+.gallery__img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.gallery__item--1 {
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 4;
+
+    margin: 0%;
+}
+.gallery__item--2 {
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 4;
+    grid-row-end: 7;
+    
+}
+.gallery__item--3 {
+    grid-column-start: 4;
+    grid-column-end: 9;
+    grid-row-start: 1;
+    grid-row-end: 7;
+}
+.gallery__item--4 {
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 7;
+    grid-row-end: 12;
+}
+.gallery__item--5 {
+    grid-column-start: 4;
+    grid-column-end: 9;
+    grid-row-start: 7;
+    grid-row-end: 12;
+}
+
+.flex_cont {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.flex_cont * > {
+    flex-basis: 1 1 100%;
+    max-width: 2em;
+}
+
+

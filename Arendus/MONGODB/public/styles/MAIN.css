@@ -1,0 +1,104 @@
+body {
+    overflow-x: hidden; /* Hide horizontal scrollbar */
+}
+/*ÜLEMINE OSA - HEADER*/
+#logo {
+    text-decoration: none;
+    text-align: center;
+    font-family: 'Megrim', cursive;
+    margin: 0em;
+    color: black;
+    font-size: 5.73em;
+}
+
+#header {
+    margin: 0em;
+    padding: 0em;
+}
+
+#navRiba {
+    background-color: white;
+}
+
+#navRiba div .btn {
+    margin-left: 0.53em;  
+    margin-top: 1%; 
+    margin-bottom: 1%;
+    background-color: white;
+    
+}
+
+#navRiba .btn-outline-light {
+    color: dimgray;
+}
+
+
+
+
+/*PEAMINE PILT*/
+#mainPicture {
+    margin-top: 0em;
+    padding: 0;
+    background-color:#dfe8eb;
+    display:flex;
+}
+
+#mainPicture img {
+    width: 100%;
+}
+/*INSTAGRAM FEED*/
+#igFeed p{
+    font-size: 2em;
+    padding-top: 2em;
+    padding-left: 1.5em;
+    font-family:Georgia, Times, 'Times New Roman', serif;
+    color: rgb(77, 77, 77);
+    text-align: center;
+    overflow-wrap: break-word;
+}
+
+.igPildid {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.igPildid > * {
+    width: 10em;
+    padding: 0.3em;
+    flex: 1 1 15%;
+    
+   
+}
+
+/*ALUMINE OSA - FOOTER*/
+#footer {
+    padding-top: 10em;
+}
+
+#sotsMeedia {
+    text-align: center;
+    font-size: 1.35em;
+    padding-bottom: 2em;
+}
+
+#sotsMeedia img {
+    margin: 0.2em;
+    margin-top: 0.5em;
+    max-width: 70px;
+}
+
+#kontakt {
+    text-align: center;
+    font-size: 1.35em;
+    padding-bottom: 2em;
+}
+
+#kontakt div {
+    padding-top: 1em;
+}
+
+#kontakt div p {
+    font-size: 0.7em;
+    padding: 0em;
+    margin: 0.4em;
+}
